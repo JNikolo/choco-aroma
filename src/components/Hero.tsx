@@ -14,11 +14,12 @@ export function HeroSection() {
               <span className="text-green-700 block">Aroma</span>
             </h1>
             <p className="text-xl lg:text-2xl text-amber-700 mb-4 font-medium">
-              100% Natural • Libre de Aroma
+              100% Natural • Cacao Criollo
             </p>
             <p className="text-lg text-amber-600 mb-8 max-w-lg mx-auto lg:mx-0">
-              Descubre el sabor auténtico del cacao ecuatoriano en cada bite.
-              Chocolate artesanal elaborado con los mejores granos de cacao.
+              Descubre el sabor auténtico del cacao ecuatoriano en cada probada.
+              Chocolate artesanal elaborado con los mejores granos de cacao
+              criollo.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
