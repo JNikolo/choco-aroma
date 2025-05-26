@@ -1,4 +1,5 @@
 import { ChevronDown } from "lucide-react";
+import { Link } from "react-router";
 
 export function HeroSection() {
   return (
@@ -20,12 +21,18 @@ export function HeroSection() {
               Chocolate artesanal elaborado con los mejores granos de cacao.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all transform hover:scale-105 shadow-lg">
+              <Link
+                to="/products"
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all transform hover:scale-105 shadow-lg"
+              >
                 Explorar Productos
-              </button>
-              <button className="border-2 border-amber-700 text-amber-700 hover:bg-amber-700 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all">
+              </Link>
+              <Link
+                to="/process"
+                className="border-2 border-amber-700 text-amber-700 hover:bg-amber-700 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all"
+              >
                 Nuestro Proceso
-              </button>
+              </Link>
             </div>
           </div>
 

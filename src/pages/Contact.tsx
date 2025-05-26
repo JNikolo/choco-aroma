@@ -49,17 +49,38 @@ export function Contact() {
           <div>
             <h3 className="text-2xl font-bold mb-6">Envíanos un Mensaje</h3>
             <div className="space-y-4">
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium text-amber-200"
+              >
+                Tu nombre
+              </label>
               <input
+                id="name"
                 type="text"
                 placeholder="Tu nombre"
                 className="w-full p-4 rounded-lg bg-amber-700 text-white placeholder-amber-300 focus:outline-none focus:ring-2 focus:ring-green-500"
               />
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-amber-200"
+              >
+                Tu email
+              </label>
               <input
+                id="email"
                 type="email"
                 placeholder="Tu email"
                 className="w-full p-4 rounded-lg bg-amber-700 text-white placeholder-amber-300 focus:outline-none focus:ring-2 focus:ring-green-500"
               />
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-amber-200"
+              >
+                Tu mensaje
+              </label>
               <textarea
+                id="message"
                 rows={4}
                 placeholder="Tu mensaje"
                 className="w-full p-4 rounded-lg bg-amber-700 text-white placeholder-amber-300 focus:outline-none focus:ring-2 focus:ring-green-500"

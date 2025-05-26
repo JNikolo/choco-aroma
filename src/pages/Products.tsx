@@ -43,7 +43,7 @@ export function Products() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {products.map((product, index) => (
             <div
-              key={index}
+              key={product.name}
               className="group bg-gradient-to-b from-amber-50 to-orange-50 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
               <div className="text-6xl mb-4 text-center">{product.image}</div>
