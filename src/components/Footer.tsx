@@ -44,8 +44,8 @@ export function Footer() {
         </div>
         <div className="border-t border-amber-700 mt-8 pt-8 text-center text-amber-200">
           <p>
-            &copy; 2025 Choco Aroma. Tous droits réservés. Hecho con ❤️ en
-            Ecuador.
+            &copy; 2025 Choco Aroma. Todos los derechos reservados. Hecho con ❤️
+            en Ecuador.
           </p>
         </div>
       </div>
