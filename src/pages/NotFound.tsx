@@ -16,7 +16,9 @@ export function NotFound() {
       "
     >
       <div className="text-center max-w-md space-y-6">
-        <span className="text-6xl block">🍫🤔</span>
+        <span className="text-6xl block" aria-hidden="true">
+          🍫🤔
+        </span>
         <h2 className="text-4xl lg:text-5xl font-bold text-amber-900">
           ¡Ups! Página no encontrada
         </h2>
